@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Moon, Sun, Menu, X, ArrowRight, Code, Zap, TrendingUp, Check, Star, ChevronLeft, ChevronRight } from 'lucide-react';
-// import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/react";
 const WingByteWebsite = () => {
   // Load Google Fonts
   useEffect(() => {
@@ -740,7 +740,7 @@ const WingByteWebsite = () => {
           animation: fade-in 0.3s ease-out forwards;
         }
       `}</style>
-      {/* <Analytics/> */}
+      <Analytics />
     </div>
   );
 };
