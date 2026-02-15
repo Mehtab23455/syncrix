@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Moon, Sun, Menu, X, ArrowRight, Code, Zap, TrendingUp, Check, Star, ChevronLeft, ChevronRight } from 'lucide-react';
-
+import { Analytics } from "@vercel/analytics/next"
 const WingByteWebsite = () => {
   // Load Google Fonts
   useEffect(() => {
